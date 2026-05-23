@@ -13,10 +13,10 @@ from alien import Alien
 class AlienInvasion:
     """Overall class to manage game assets and behaviour"""
     def __init__(self):
-        """Initialize the game, and create the Resorces"""
+        """Initializ the game, and creating  Resorces"""
         pygame.init()
-        self.clock = pygame.time.Clock()  # Creating a clock object 
-        self.settings = Settings()  # Creating an instance of Settings
+        self.clock = pygame.time.Clock()   
+        self.settings = Settings() 
         #Group to store bullets in
         self.bullets = pygame.sprite.Group()
 
