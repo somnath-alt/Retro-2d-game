@@ -19,6 +19,7 @@ class Ship:
         self.moving_right = False
         self.moving_left = False
         self.settings = ai_game.settings
+        
     def update(self):
         """Update the ship's position based on the movement of the flag."""
         if self.moving_right and self.rect.right < self.screen_rect.right:
